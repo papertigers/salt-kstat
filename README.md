@@ -7,7 +7,7 @@ kstat module for saltstack
 `salt-call kstat.memory_cap`
 
 ```
-# ./salt-call kstat.memory_cap digitOnly=true --output json
+# ./salt-call kstat.memory_cap --output json
 [INFO    ] Executing command 'kstat -p -m memory_cap -c zone_memory_cap' in directory '/root'
 {
     "local": {
@@ -16,14 +16,18 @@ kstat module for saltstack
         "anon_alloc_fail": "0",
         "pagedout": "0",
         "anonpgin": "0",
+        "zonename": "2fc847b3-71bf-63c0-a300-94696208e311",
         "pgpgin": "46002",
-        "physcap": "1073741824",
+        "nover": "0",
         "fspgin": "41522",
-        "swap": "689590272",
+        "snaptime": "1672236.841528959",
+        "swap": "690114560",
         "n_pf_throttle": "0",
         "swapcap": "2147483648",
-        "nover": "0",
-        "rss": "549908480"
+        "physcap": "1073741824",
+        "class": "zone_memory_cap",
+        "crtime": "297.530764428",
+        "rss": "550281216"
     }
 }
 ```
