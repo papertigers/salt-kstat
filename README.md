@@ -40,20 +40,22 @@ kstat module for saltstack
 [INFO    ] Executing command 'kstat -p -m zone_vfs -c zone_vfs' in directory '/root'
 {
     "local": {
-        "rtime": "117528901637",
-        "nwritten": "2045607435",
-        "1s_ops": "0",
-        "delay_cnt": "264083",
-        "wtime": "35887167473",
-        "writes": "1313027",
-        "wlentime": "37077041211",
-        "rlentime": "156266672623",
-        "reads": "31083479",
-        "nread": "211769684556",
-        "delay_time": "19105940",
-        "10s_ops": "0",
-        "100ms_ops": "44",
-        "10ms_ops": "1456"
+        "rtime": 124678894562,
+        "nwritten": 2214408333,
+        "1s_ops": 0,
+        "delay_cnt": 333742,
+        "wtime": 60587138454,
+        "writes": 2432899,
+        "wlentime": 61802862383,
+        "rlentime": 164236155324,
+        "snaptime": 1802471.837622232,
+        "reads": 32886426,
+        "nread": 222273156649,
+        "delay_time": 19944140,
+        "10s_ops": 0,
+        "100ms_ops": 44,
+        "10ms_ops": 1490,
+        "crtime": 297.530752881
     }
 }
 ```
